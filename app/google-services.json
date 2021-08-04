@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739612058244",
+    "project_id": "lcsm-aa0cc",
+    "storage_bucket": "lcsm-aa0cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739612058244:android:794aa13382b77f98d1d8d1",
+        "android_client_info": {
+          "package_name": "com.example.lmcs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739612058244-ga8trkdbtchj930iisv75ekn820qttbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByRklT8i3o2O0FkeBztTtyE0FnpuhvnuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739612058244-ga8trkdbtchj930iisv75ekn820qttbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

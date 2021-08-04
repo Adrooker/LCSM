@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpentry"
+    android:orientation="vertical"
+    android:background="#B2FFFF"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/crop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" OTP Entry"
+        android:textSize="40dp"
+        android:fontFamily="@font/carme"
+        android:textColor="#3A55EA"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Password"
+            app:passwordToggleEnabled="true"
+            android:fontFamily="@font/carme"
+            android:textColorHint="#3A55EA"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:fontFamily="@font/carme"
+                android:textColor="#3A55EA"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/otpb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#3A66EA"
+            android:fontFamily="@font/carme"
+            android:text="Submit"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/otpres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003A55EA"
+            android:fontFamily="@font/carme"
+            android:text="Resend OTP?"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</LinearLayout>
